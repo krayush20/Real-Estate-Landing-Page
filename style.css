@@ -1,0 +1,415 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: url("./Photos/mainBackground.png");
+    background-size: 100vw 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-color: #f6f8fa;
+}
+
+button{
+    background-color: #6663e9;
+    border: 1px solid #6663e9;
+    color: #fff;
+}
+
+button:hover{
+    background-color: #413f94;
+    cursor: pointer;
+    border: #413f94;
+}
+
+/* Navbar */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    height: 10vh;
+    border-width: 0 0 1px 0;
+    border-color: #fff;
+    border-style: solid;
+}
+
+.navbarlist{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    width: 40vw;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.navbarlist:hover{
+    cursor: pointer;
+}
+
+/*************************************  *********************************************/
+.conti{
+    display: none;
+    flex-direction: column;
+    height: 30vh;
+    width: 10vw;
+    justify-content: space-evenly;
+    position: absolute;
+    left: 53vw;
+    top: 12vh;
+    border-radius: 15px;
+    font-weight: 600;
+    padding-left: 5px;
+    background-color:#fcfcf5;
+}
+
+.conti>span:hover{
+    cursor: pointer;
+}
+
+/* *********************************************************** */
+
+/* Navbar ends */
+
+/* Section 1 */
+.sec1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80vw;
+    height: 90vh;
+}
+
+.sec1>h1{
+    color: #fff;
+    font-size: 50px;
+    width: 30vw;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.sec1>span{
+    color: #b4b7b7;
+    width: 23vw;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.sec1>button{
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 16px;
+}
+
+/* Section 1 ends */
+
+/* Logo Divider */
+.logodivider{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90vw;
+    background-color: #fff;
+    border-radius: 20px;
+    height: 15vh;
+    position: relative;
+    top: -70px;
+}
+/* Logo Divider ends */
+
+/* Section 2 */
+.sec2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80vw;
+    height: 200vh;
+}
+
+.sec2>h1{
+    font-size: 50px;
+    color: #27292e;
+    width:450px;
+    text-align: center;
+}
+
+.sec2>div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60vh;
+    width: 80vw;
+    position: relative;
+}
+
+.sec2>div>div{
+    width:20vw;
+    height: 100%;
+}
+
+.sec2>div>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec2>div>div>img{
+    height: 40vh;
+    width: 20vw;
+    border-radius: 15px;
+    position: relative;
+    top:5vh;
+    z-index: -1;
+    box-shadow: 2px 2px 10px black;
+}
+
+.sec2div1{
+    justify-content: flex-start;
+}
+
+.sec2div2{
+    justify-content: center;
+}
+
+.sec2div3{
+    justify-content: flex-end;
+}
+
+#card1{
+    justify-content: flex-end;
+}
+
+#card2{
+    justify-content: flex-start;
+}
+
+.details{
+    height: 10vh;
+    width: 15vw;
+    border: 1px solid white;
+    background-color: #fff;
+    border-radius: 15px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 2px 2px 10px black;
+}
+
+.details>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#type{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#price{
+    color: #6663e9;
+    font-weight: 600;
+}
+
+.details>button{
+    width: 5vw;
+    height: 5vh;
+    border-radius: 20px; 
+}
+/* Section 2 ends */
+
+/* Section 3 */
+.sec3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 200vh;
+    width: 90vw;
+}
+
+.sec3>div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+#sec3img1,#sec3img2{
+    width:33vw;
+    height: 60vh;
+    border-radius: 40px;
+}
+
+#sec3svg{
+    position: absolute;
+    width:705px;
+    height:576px;
+    top: 5px;
+    left: -19px;
+    z-index: -1;
+}
+
+#sec3img3{
+    position: absolute;
+    width:705px;
+    height:576px;
+    top: 5px;
+    right: -19px;
+    z-index: -1;
+}
+
+.sec3div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 400px;
+    height: 400px;
+}
+
+.sec3text1{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.sec3text2{
+    color: #b4b7b7;
+}
+
+.sec3div>button{
+    width: 150px;
+    height: 50px;
+    border-radius: 25px ;
+}
+/* Section 3 ends */
+
+/* Section 4 */
+.sec4{
+    height: 50vh;
+}
+
+.sec4>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #6663e9;
+    border-radius: 20px;
+    color: #fff;
+    height: 100%;
+    width: 80vw;
+}
+
+.sec4>div>h1{
+    font-size: 50px;
+    width: 50vw;
+    text-align: center;
+    margin: 0;
+}
+
+.sec4>div>span{
+    width: 40vw;
+    text-align: center;
+}
+
+form{
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+input[type="email"]{
+    background-color: #5654d1;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #5654d1;
+    outline: none;
+    color: #abaae8;
+    padding-left: 30px;
+}
+
+::placeholder{
+    color: #abaae8;
+}
+
+input[type="button"]{
+    width: 120px;
+    height: 40px;
+    color: #6663e9;
+    background-color: #fff;
+    border: 1px solid #6663e9;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+input[type="button"]:hover{
+    background-color: #abaae8;
+    cursor: pointer;
+}
+
+form>img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+}
+/* Section 4 ends */
+
+/* Footer */
+footer{
+    height: 50vh;
+    width: 95vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 80%;
+}
+
+footer>div:nth-child(2n){
+    flex-direction: row;   
+    align-items: center; 
+    width: 30vw;
+}
+
+footer>div>span{
+    width: 17vw;
+}
+
+footer>div>div>img{
+    height: 30px;
+    width: 30px;
+}
+
+.footerhead{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footerlist{
+    list-style-type: none;
+    padding: 0;
+}
+
+.footerlist>li{
+    margin-bottom: 10px;
+}
+
+.footerhead:hover, .footerlist>li:hover, footer>div>div>img:hover{
+    cursor: pointer;
+}
